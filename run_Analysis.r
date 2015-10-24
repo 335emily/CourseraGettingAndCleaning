@@ -50,6 +50,7 @@ labeldf$action <- actiondf$actionlabel[labeldf$action]
 
 names(selecteddf) <- gsub("\\(\\)", "", setcolnames[reqcolumns, 2]) # add names and remove "()"
 names(selecteddf) <- gsub("-", "", names(selecteddf)) # remove "-" in column names
+names(selecteddf) <- tolower(names(selecteddf)) #change all to lower case
 
 ## capitalising some words will make the column titles more readable
 names(selecteddf) <- gsub("mean", "Mean", names(selecteddf)) #capitalise Mean
