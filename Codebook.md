@@ -1,4 +1,4 @@
-##Code Book for 335emily’s Submission
+#Code Book for 335emily’s Submission
 ## Study Design Section
 ### Information about the experimental study design used
 * For a detailed description of the study design, please see [here] (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones), and refer to the README.txt file in the data set (available for download [here] (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) )
